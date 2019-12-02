@@ -28,5 +28,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun fillAdapter() {
         adapter.items = provider.generate()
+        
     }
 }
